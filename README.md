@@ -17,17 +17,17 @@ This project aims to **classify human facial emotions into seven categories** us
 
 - 🖼️ **Dataset Loading:** Loaded FER-2013 dataset from Kaggle.
 - 🧹 **Data Preprocessing:**
-- Reshaped and normalized pixel values.
-- One-hot encoded the target emotion labels.
-- Augmented data for generalization.
+  - Reshaped and normalized pixel values.
+  - One-hot encoded the target emotion labels.
+  - Augmented data for generalization.
 - 🧠 **Model Architecture:** Built a custom CNN using Keras and TensorFlow.
 - 📉 **Training Strategy:**
-- Used callbacks for early stopping and learning rate scheduling.
-- Tuned the learning rate and batch size.
+  - Used callbacks for early stopping and learning rate scheduling.
+  - Tuned the learning rate and batch size.
 - 📈 **Model Evaluation:** Evaluated model on:
-- Accuracy
-- Loss
-- Confusion Matrix
+  - Accuracy
+  - Loss
+  - Confusion Matrix
 - 📷 **Real-time Prediction:** Integrated with OpenCV to recognize facial emotions via webcam.
 
 
@@ -48,7 +48,7 @@ This project aims to **classify human facial emotions into seven categories** us
 
 - [Python 3.x](https://www.python.org/)
 - [Jupyter Notebook](https://jupyter.org/) / Spyder (Anaconda)
-- [[TensorFlow](https://www.tensorflow.org/) / [Keras](https://keras.io/)
+- [TensorFlow](https://www.tensorflow.org/) / [Keras](https://keras.io/)
 - `NumPy`, `Pandas` for Data manipulation
 - `Matplotlib`, `Seaborn` for Data visualization
 - `OpenCV`: for real-time webcam input and face detection
@@ -65,7 +65,7 @@ This project aims to **classify human facial emotions into seven categories** us
 | Validation Loss       | 1.2288    |
 
 
-### ✅ Final Model Optimizations**
+### ✅ Final Model Optimizations
 
 - Reduced learning rate progressively (0.00015 → 0.000075 → 0.0000375).
 - Achieved stable training and improved generalization on validation data.
@@ -102,7 +102,4 @@ Such systems can be integrated into:
 - **Therapeutic Apps**
 - **Gaming and AR/VR**
 - **Smart Surveillance Systems**
-
-
----
 
