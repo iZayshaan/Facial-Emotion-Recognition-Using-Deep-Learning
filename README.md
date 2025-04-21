@@ -35,7 +35,7 @@ This project aims to **classify human facial emotions into seven categories** us
 
 ## 📂 Dataset
 
-- Source: FER-2013 Kaggle Dataset
+- Source: [Kaggle - FER-2013 Dataset](https://www.kaggle.com/datasets/msambare/fer2013)
 - Records: 35,887 labeled grayscale images (48x48 pixels)
 - Categories: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
 - Format: JPG image files
@@ -47,7 +47,7 @@ This project aims to **classify human facial emotions into seven categories** us
 ## ⚙️ Tools and Libraries Used
 
 - [Python 3.x](https://www.python.org/)
-- [Jupyter Notebook](https://jupyter.org/) / Spyder (Anaconda)
+- [Jupyter Notebook](https://jupyter.org/)
 - [TensorFlow](https://www.tensorflow.org/) / [Keras](https://keras.io/)
 - `NumPy`, `Pandas` for Data manipulation
 - `Matplotlib`, `Seaborn` for Data visualization
